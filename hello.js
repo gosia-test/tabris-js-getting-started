@@ -14,7 +14,7 @@ var label = tabris.create("TextView", {
 }).appendTo(page);
 
 button.on("select", function() {
-  label.set("text", "Totally Rock!");
+  label.set("text", "Totally Rock Again!");
 });
 
 page.open();
